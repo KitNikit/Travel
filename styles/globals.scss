@@ -1,0 +1,179 @@
+html body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.intro {
+	position: relative;
+	min-height: 100vh;
+}
+.intro-media {
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #ccc url('https://cdn.wallpapersafari.com/74/44/QnRgAp.jpg')
+		no-repeat center center;
+	background-size: cover;
+	z-index: -1;
+}
+.intro-media::before {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.intro-media-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	z-index: -1;
+}
+
+.main {
+	color: ivory;
+	margin-top: 150px;
+	padding: 15px;
+}
+
+.card-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 150px;
+	justify-items: center;
+	grid-gap: 50px;
+}
+
+@media (max-width: 1300px) {
+	.card-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+.card {
+	position: relative;
+	height: 300px;
+	width: 600px;
+	perspective: 1000px;
+}
+
+@media (max-width: 650px) {
+	.card {
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+	}
+}
+
+.card-intro {
+	width: 260px;
+}
+
+.front {
+	justify-content: space-between;
+	background-color: ivory;
+}
+
+.back {
+	transform: rotateY(180deg);
+	justify-content: center;
+}
+
+.front,
+.back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.card:hover .front {
+	transform: rotateY(180deg);
+}
+
+.card:hover .back {
+	transform: rotateY(360deg);
+}
+
+.grid {
+	margin: 200px 100px 0 100px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+
+@media (max-width: 650px) {
+	.grid {
+		margin: 150px 0 0 0;
+	}
+}
+
+.grid div {
+	background-color: #fff;
+	border: 1px solid darkcyan;
+}
+
+.box2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+}
+
+.box4 {
+	grid-column-start: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.box5 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+.box6 {
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+.grid div {
+	width: 100%;
+	height: 100%;
+}
+
+.epilog {
+	height: 200px;
+}
+
+.grid div:hover {
+	box-shadow: 0 0 30px deepskyblue;
+}
