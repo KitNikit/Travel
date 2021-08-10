@@ -43,14 +43,18 @@ export default function Home() {
 						<h1>Travel</h1>
 					</center>
 					<h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-						cupidatat non proident, sunt in culpa qui officia deserunt mollit
-						anim id est laborum.
+						&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur,
+						adipisicing elit. Expedita, earum sapiente nobis ad dolores
+						repudiandae eveniet. Autem sunt voluptatibus molestiae dolorem non
+						voluptas laborum quos numquam, mollitia similique quam assumenda
+						enim ratione atque hic commodi modi. Fugit cum maxime eaque ratione
+						tempora, rem assumenda facilis fuga saepe rerum alias nobis corporis
+						sed atque, neque aliquid dolor libero eum explicabo, impedit in
+						reprehenderit incidunt beatae! Dignissimos aut, neque repudiandae
+						dolorum culpa consectetur cumque nobis, placeat earum, eaque facere.
+						Possimus officiis similique assumenda delectus error ipsum et
+						dolorum dignissimos nisi dolore, rerum laboriosam, pariatur a omnis
+						aut sapiente. Molestias harum nam quidem?
 					</h4>
 				</main>
 				<card className='card-container'>
