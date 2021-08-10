@@ -43,18 +43,14 @@ export default function Home() {
 						<h1>Travel</h1>
 					</center>
 					<h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;Cillum dolore est sunt dolor irure labore
-						laboris magna adipisicing dolor tempor Lorem Lorem. Laboris magna
-						commodo cupidatat do. Et reprehenderit ut sint sunt est ullamco
-						ullamco. Minim labore consectetur sunt pariatur in consequat
-						voluptate ad. Ut dolore dolore do irure incididunt et proident ipsum
-						qui sunt. Culpa nulla labore ex labore. Sint dolore ipsum nulla
-						fugiat quis mollit ut nisi sit laborum enim ullamco aliquip irure.
-						Culpa est duis culpa labore adipisicing ullamco. Labore irure
-						ullamco fugiat amet nulla voluptate eiusmod incididunt officia nulla
-						ad ullamco eiusmod. Et incididunt commodo laborum sit culpa nulla.
-						Ea occaecat deserunt consectetur laboris cillum adipisicing ut
-						proident anim adipisicing culpa.
+						&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur
+						adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+						cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum.
 					</h4>
 				</main>
 				<card className='card-container'>
