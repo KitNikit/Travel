@@ -6,7 +6,6 @@ import card1 from '../public/card1.png';
 import card2 from '../public/card2.png';
 import card3 from '../public/card3.png';
 import card4 from '../public/card4.png';
-import card5 from '../public/card5.png';
 import grid1 from '../public/grid1.png';
 import grid2 from '../public/grid2.png';
 import grid3 from '../public/grid3.png';
@@ -71,7 +70,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className='back'>
-							<Image src={card5} width={600} height={300} />
+							<div className='back-img'></div>
 						</div>
 					</div>
 					<div className='card'>
@@ -87,7 +86,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className='back'>
-							<Image src={card5} width={600} height={300} />
+							<div className='back-img'></div>
 						</div>
 					</div>
 					<div className='card'>
@@ -103,7 +102,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className='back'>
-							<Image src={card5} width={600} height={300} />
+							<div className='back-img'></div>
 						</div>
 					</div>
 					<div className='card'>
@@ -119,7 +118,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div className='back'>
-							<Image src={card5} width={600} height={300} />
+							<div className='back-img'></div>
 						</div>
 					</div>
 				</card>
@@ -162,4 +161,3 @@ export default function Home() {
 		</>
 	);
 }
-// ../Quang.mp4
